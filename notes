@@ -1,0 +1,18 @@
+Modern CSS development is mobile first. Wireframes are displayed in Tablet, mobile, and desktop.
+
+HTML is almost identical
+CSS is mobile 1st
+If anticipate tablet, 2nd
+Large(the rest) is 3rd
+
+
+Semantic => Meaning
+Navigation element => <nav>
+Introduction => <header>
+Need to distinguish section header or header for page with ID and CLASS
+ID => Unique
+Class => multiple/reusable
+
+Each content has it's own semantic element which is also called <main>
+
+Bottom is the <footer> which can also have section and page footers
