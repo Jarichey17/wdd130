@@ -16,3 +16,8 @@ Class => multiple/reusable
 Each content has it's own semantic element which is also called <main>
 
 Bottom is the <footer> which can also have section and page footers
+
+
+5/3
+<div> is a block level element - Greedy. Will not share the line
+<span> is a character level element - can be one character or more, but typically contained to no more than a sentance
