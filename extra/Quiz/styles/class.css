@@ -1,8 +1,19 @@
+/* Control / is a shortcut to comment */
 img{
     width: 350px;
     float: right;
 }
+
+h1{
+    color: orange;
+}
+
+p{
+    color: purple;
+}
+
 section{
+    background-color: lightgray;
+    overflow: auto;
     padding: 50px;
-    
 }
