@@ -1,7 +1,7 @@
 #content{max-width: 1600px; margin: 0 auto;}
 
 nav a{text-align: center; color: white; text-decoration: none;}
-nav:hover{background-color: #A25379; color:white}
+nav a:hover{background-color: #A25379; color:white}
 
 #hero-msg h1{text-align: center; color:white}
 #hero-msg h4{text-align: center; color:aqua}
