@@ -30,7 +30,7 @@ header{background-color: #E3B426;}
 
 footer{background-color: #414E2D; color:#E3B426;}
 footer a{color: aqua; text-decoration: none;}
-footer a:hover{color:E3B426}
+footer a:hover{color: #E3B426}
 
 footer p{font-size: 1.2em;}
 footer p a:hover{text-decoration: underline;}
