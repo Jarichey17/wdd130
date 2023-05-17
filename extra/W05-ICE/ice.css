@@ -1,0 +1,40 @@
+.Circles{
+    width: 100%;
+}
+
+body{
+    background-color: gray;
+}
+
+footer{
+    position: relative;
+    margin: auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    text-align: center;
+}
+
+.Desk{
+    width: 250px;
+    border-radius: 50%;
+    background: darkgray;
+    margin: auto;
+    padding: 15px 10px;
+}
+
+.Person{
+    width: 250px;
+    border-radius: 50%;
+    background: darkgrey;
+    margin: auto;
+    padding: 15px 10px;
+}
+
+.Graphic{
+    width: 250px;
+    border-radius: 50%;
+    background: darkgrey;
+    margin: auto;
+    padding: 15px 10px;
+}
