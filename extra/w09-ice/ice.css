@@ -1,0 +1,21 @@
+body footer{
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+img{
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+p{max-width: 400px;}
+
+footer{
+    display: grid;
+    grid-template-columns: 1/4;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
