@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="component.css">
+</head>
+<body>
+
+  <button class="accordion">Section 1</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium totam atque quod ducimus at necessitatibus quo pariatur asperiores voluptates veniam dignissimos deleniti sapiente voluptatem veritatis, omnis perferendis sed quia delectus.</p>
+  </div>
+
+  <button class="accordion">Section 2</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, non, qui recusandae incidunt ea, quam optio molestias ab voluptatum laudantium ipsum! Dolore suscipit voluptatibus repellat maiores velit id, molestias libero.</p>
+  </div>
+
+  <button class="accordion">Section 3</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nam ab saepe praesentium quos earum, natus totam est enim fugit nihil accusamus magnam hic consectetur, dolores placeat maxime fuga aut? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aperiam sunt assumenda. Culpa repudiandae delectus laboriosam, libero ullam excepturi odit sit beatae dolorem eos, exercitationem quam quibusdam veritatis, mollitia atque?</p>
+  </div>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+  </script>
+</body>
+</html>
